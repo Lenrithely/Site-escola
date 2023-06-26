@@ -1,5 +1,5 @@
 body {
-    background-color: #424E61;
+    background-color: #afa516;
     color: white;
 }
 *{
@@ -7,19 +7,35 @@ body {
     padding: 0;
 }
 .cabecalho-imagem{
-    width: 2%;
+    width: 5%;
+
 }
 .cabecalho{
 
-        background-color: #424E61;
+        background-color: #ffffff;
         color: white;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
         padding: 24px 0;
     }
     .cabecalho-lista-item{
-        display: inline-block;
+        display:inline-block;
         margin: 0 16px;
         font-size: 24px;
     }
+.escola-imagem{
+        width: 15%;
+}
+.escola{
+        background-image: linear-gradient(#e5ff00(252, 255, 100),#afa516);
+        color: white;
+}
+.escola{
+        background-image: linear-gradient(#afa516,#e5ff00);
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+}
